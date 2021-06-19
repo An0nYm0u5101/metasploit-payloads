@@ -1,7 +1,7 @@
 # To build the dev environment.
 # docker build -t rapid7/msf-ubuntu-x64-meterpreter:latest .
 
-FROM ubuntu:focal
+FROM ubuntu:groovy-20210614
 MAINTAINER Brent Cook <bcook@rapid7.com> (@busterbcook)
 
 ENV DEBIAN_FRONTEND noninteractive
